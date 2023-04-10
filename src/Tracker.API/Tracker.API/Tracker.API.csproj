@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Tracker.Application\Tracker.Application.csproj" />
+    <ProjectReference Include="..\Tracker.Contracts\Tracker.Contracts.csproj" />
+    <ProjectReference Include="..\Tracker.Infrastructure\Tracker.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
